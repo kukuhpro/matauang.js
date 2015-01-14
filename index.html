@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<form>
+  <input type="text" id="matauang-input"><br/>
+  <p id="js-output">
+    
+  </p>
+</form>
+
+<script src="jquery.js"></script>
+<script src="matauang.js"></script>
+<script type="text/javascript">
+  $('#matauang-input').matauang({
+    output: $('#js-output'),
+    endpoint: ',00'
+  });
+</script>
+</body>
+</html>
