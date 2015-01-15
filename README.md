@@ -15,6 +15,7 @@ output | where the output will display
 And here's some code!
 
 ```javascript
+<script src="jquery.js"></script>
 <script src="matauang.js"></script>
 <script type="text/javascript">
   $('#parent1').matauang({
